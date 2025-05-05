@@ -54,6 +54,27 @@ const testimonialsData = [
     content: "Absolutely thrilled with the results! The journey was smooth from start to finish, and the final outcome exceeded my expectations. Working with Palak was a game-changer — her creativity, professionalism, and attention to detail truly stood out.",
     avatar: "/s.jpg"
   },
+  {
+    id: 8,
+    name: "Rupinder Kaur ",
+    role: "Btech IT UG",
+    content: "Whenever I had doubts, Palak was always there to help — calm, clear, and super knowledgeable. She makes tech feel less intimidating!.",
+    avatar: "/rup.jpg"
+  },
+  {
+    id: 9,
+    name: "Rahul  walia",
+    role: "Btech IT UG",
+    content: "Absolutely thrilled with the results! The journey was smooth from start to finish, and the final outcome exceeded my expectations. Working with Palak was a game-changer — her creativity, professionalism, and attention to detail truly stood out.",
+    avatar: "/rah.jpg"
+  },
+  {
+    id: 10,
+    name: " Mansi Singh",
+    role: "Btech ECE UG",
+    content: "Working with Palak was such a smooth experience. Her ability to balance creativity with technical logic is rare. She doesn’t just contribute—she uplifts the entire project",
+    avatar: "https://www.shutterstock.com/image-vector/user-icon-vector-female-person-260nw-770781427.jpg"
+  },
   
 ];
 
@@ -71,23 +92,16 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="py-16 bg-white" aria-label="Client testimonials">
       <div className="section-container">
-        <div className="flex items-center justify-center mb-2">
-          <h2 className="section-title gradient-text flex items-center">
-            <span className="relative">
-              Testimonials
-              <span className="absolute -top-6 -right-6 text-portfolio-primary">
-                ❤️
-              </span>
-            </span>
-            <img 
-              src="/palak.jpg" 
-              alt="Palak Batra" 
-              className="w-12 h-12 rounded-full ml-4 border-2 border-portfolio-primary"
-            />
-          </h2>
-        </div>
+        <h2 className="section-title text-center mb-2">
+          <span className="relative inline-block">
+            Testimonials  ❤️
+            {/* <span className="absolute -top-6 -right-6 text-portfolio-primary">
+             
+            </span> */}
+          </span>
+        </h2>
         <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-          Here's what people say about working with me.
+          Here&apos;s what people say about working with me.
         </p>
         
         <div className="relative mx-auto max-w-4xl">
